@@ -37,6 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["dotenv", "npm:16.0.3"],\
             ["express", "npm:4.18.2"],\
             ["mysql2", "npm:2.3.3"],\
+            ["node-cron", "npm:3.0.2"],\
             ["nodemailer", "npm:6.8.0"],\
             ["nodemon", "npm:2.0.20"],\
             ["sequelize", "virtual:71dfa3f1c20c45e05abc466a5ad93b0b9b8899769b2ed27b74383954ca37e503e30bbcfc64d38e466a6816b1cc0a3bee6903a9cd0e52067ec77ffed654507254#npm:6.28.0"],\
@@ -1728,6 +1729,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["node-cron", [\
+        ["npm:3.0.2", {\
+          "packageLocation": "./.yarn/cache/node-cron-npm-3.0.2-5ee1c1c226-dd21585c0d.zip/node_modules/node-cron/",\
+          "packageDependencies": [\
+            ["node-cron", "npm:3.0.2"],\
+            ["uuid", "npm:8.3.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["node-gyp", [\
         ["npm:9.3.1", {\
           "packageLocation": "./.yarn/unplugged/node-gyp-npm-9.3.1-43540bab9c/node_modules/node-gyp/",\
@@ -2042,6 +2053,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["dotenv", "npm:16.0.3"],\
             ["express", "npm:4.18.2"],\
             ["mysql2", "npm:2.3.3"],\
+            ["node-cron", "npm:3.0.2"],\
             ["nodemailer", "npm:6.8.0"],\
             ["nodemon", "npm:2.0.20"],\
             ["sequelize", "virtual:71dfa3f1c20c45e05abc466a5ad93b0b9b8899769b2ed27b74383954ca37e503e30bbcfc64d38e466a6816b1cc0a3bee6903a9cd0e52067ec77ffed654507254#npm:6.28.0"],\
