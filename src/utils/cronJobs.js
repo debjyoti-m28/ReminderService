@@ -7,7 +7,7 @@ const setupJobs = () => {
         const response = await EmailService.fetchPendingEmails();
         response.forEach(email => {
             EmailService.sendBasicEmail(
-                'remiderservice@gmail.com',
+                'notificationservice2023@gmail.com',
                 email.recepientEmail,
                 email.subject,
                 email.content

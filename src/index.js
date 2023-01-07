@@ -14,7 +14,7 @@ const setupAndStartServer = () => {
 
     app.listen(PORT, () => {
         console.log(`Server started at port ${PORT}`);
-        jobs();
+        // jobs();
     });
 }
 
