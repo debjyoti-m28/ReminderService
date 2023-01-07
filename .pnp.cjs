@@ -37,6 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["dotenv", "npm:16.0.3"],\
             ["express", "npm:4.18.2"],\
             ["mysql2", "npm:2.3.3"],\
+            ["nodemailer", "npm:6.8.0"],\
             ["nodemon", "npm:2.0.20"],\
             ["sequelize", "virtual:71dfa3f1c20c45e05abc466a5ad93b0b9b8899769b2ed27b74383954ca37e503e30bbcfc64d38e466a6816b1cc0a3bee6903a9cd0e52067ec77ffed654507254#npm:6.28.0"],\
             ["sequelize-cli", "npm:6.5.2"]\
@@ -1746,6 +1747,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["nodemailer", [\
+        ["npm:6.8.0", {\
+          "packageLocation": "./.yarn/cache/nodemailer-npm-6.8.0-8280b33fb7-e1827df714.zip/node_modules/nodemailer/",\
+          "packageDependencies": [\
+            ["nodemailer", "npm:6.8.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["nodemon", [\
         ["npm:2.0.20", {\
           "packageLocation": "./.yarn/unplugged/nodemon-npm-2.0.20-2fea8f7bf9/node_modules/nodemon/",\
@@ -2032,6 +2042,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["dotenv", "npm:16.0.3"],\
             ["express", "npm:4.18.2"],\
             ["mysql2", "npm:2.3.3"],\
+            ["nodemailer", "npm:6.8.0"],\
             ["nodemon", "npm:2.0.20"],\
             ["sequelize", "virtual:71dfa3f1c20c45e05abc466a5ad93b0b9b8899769b2ed27b74383954ca37e503e30bbcfc64d38e466a6816b1cc0a3bee6903a9cd0e52067ec77ffed654507254#npm:6.28.0"],\
             ["sequelize-cli", "npm:6.5.2"]\
