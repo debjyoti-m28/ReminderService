@@ -24,6 +24,15 @@ const fetchPendingEmails = async (timestamp) => {
     }
 }
 
+const updateTicket = async (ticketId, data) => {
+    try {
+        const tickets = await ticketRepository.update(ticketId, data);
+        return tickets;
+    } catch (error) {
+        console.log(error);
+    }
+}
+
 const createNotification = async (data) => {
     try {
         const response = await ticketRepository.create(data);
@@ -36,5 +45,6 @@ const createNotification = async (data) => {
 module.exports = {
     sendBasicEmail,
     fetchPendingEmails,
-    createNotification
+    createNotification,
+    updateTicket
 }
